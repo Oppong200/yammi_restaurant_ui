@@ -83,9 +83,9 @@ a.middle-nav-link{
 
 /*Specials*/
 .popspec{
-    background: linear-gradient(#f9fff9, #e7fbe6,#e3fde2, #dafad9, #f9fff9);
+    background: linear-gradient(#f9fff9, #e7fbe6,#e3fde2, #f9fff9,#e5fee4, #f9fff9);
 }
-.our-specials,.popular{
+.our-specials,.popular-v,.today,.customers{
     padding: 100px 100px 0 100px;
 }
 .special-divs{
@@ -120,6 +120,16 @@ a.middle-nav-link{
 .special-right-pp{
     margin-bottom: 50px;
 }
+.popular{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 100px;
+}
+.popular-header{
+    margin-bottom: 150px;
+}
 .popular-card{
     width: 400px;
     height: 300px;
@@ -133,9 +143,11 @@ a.middle-nav-link{
 .popular-card-title{
     color: #071b07;
     text-align: center;
+    padding: 20px;
 }
 .popular-food-holder{
     margin-top: -75px;
+    margin-left: 60px;
     width: 200px;
     height: 150px;
     padding: 20px 40px;
@@ -148,5 +160,107 @@ a.middle-nav-link{
 }
 .popular-card-p{
     color: #515452;
-    font-size: 12px;
+    font-size: 13px;
+}
+.popular-emoji{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.last-popular-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-main-text{
+    font-size: 14px;
+    color: #071b07;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.last-popular-item p{
+    font-family: "Montserrat", sans-serif;
+    color: #31c12c;
+}
+.del{
+    color: #515452;
+    opacity: 0.7;
+}
+.popular-btn{
+    width: 50%;
+    background-color: #31c12c;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.today{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.today-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.today-div-holder{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin-right: 1.5%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.today-main-img{
+    width: 400px;
+}
+.today-grid-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3%;
+    column-gap: 2%;
+    margin-top: -1%;
+}
+.today-grid-item{
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.today-grid-item img{
+    width: 200px;
+}
+
+.grid-1{
+    background-image: url("/images/pexels-jer-chung-2059151.jpg");
+    background-size: cover;
+}
+.grid-2{
+    background-image: url("/images/pexels-mister-mister-3434523.jpg");
+    background-size: cover;
+}
+.grid-3{
+    background-image: url("/images/pexels-pixabay-315755.jpg");
+    background-size: cover;
+}
+.grid-4{
+    background-image: url("/images/pexels-william-choquette-2641886.jpg");
+    background-size: cover;
+}
+.customer-card-holder{
+    display: flex;
+}
+.customer-card{
+    width: 300px;
+    height: 200px;
+    background-color: #0a570a;
 }
