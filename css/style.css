@@ -1,41 +1,49 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
 }
-.green-area{
+
+.green-area {
     padding: 50px 100px 100px 100px;
-    background-color: #0a570a;;
+    background-color: #0a570a;
+    ;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.left-nav-text{
-    font-family: "Brodast", sans-serif;
+
+.left-nav-text {
+    font-family: "Christmas Kring-kring", sans-serif;
 }
-a.middle-nav-link{
+
+a.middle-nav-link {
     text-decoration: none;
     color: #fff;
     padding-right: 20px;
     font-weight: 300;
 }
-.right-nav{
+
+.right-nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.right-nav-img{
+
+.right-nav-img {
     width: 20px;
 }
-.right-nav-btn{
+
+.right-nav-btn {
     margin-left: 10px;
     background-color: transparent;
     border: 1px solid #fff;
@@ -44,93 +52,118 @@ a.middle-nav-link{
     padding: 5px 10px;
     border-radius: 5px;
 }
-.intro{
+
+.intro {
     padding: 140px 0 20px 0;
 }
-.intro-text{
+
+.intro-text {
     font-size: 70px;
     font-weight: 700;
     padding-bottom: 70px;
 }
-.green-text{
+
+.green-text {
     color: #31c12c;
 }
-.intro-main-text{
+
+.intro-main-text {
     font-size: 13px;
     line-height: 20px;
     padding-bottom: 70px;
 }
 
-.intro-1-btn,.intro-2-btn{
+.intro-1-btn,
+.intro-2-btn {
     padding: 10px 50px;
     font-size: 16px;
     margin-right: 20px;
     border-radius: 5px;
 }
-.intro-1-btn:hover,.intro-2-btn:hover{
+
+.intro-1-btn:hover,
+.intro-2-btn:hover {
     cursor: pointer;
 }
-.intro-1-btn{
+
+.intro-1-btn {
     background-color: #31c12c;
     color: #fff;
     border: none;
 }
-.intro-2-btn{
+
+.intro-2-btn {
     background-color: transparent;
     color: white;
     border: 2px solid #fff;
 }
 
 /*Specials*/
-.popspec{
-    background: linear-gradient(#f9fff9, #e7fbe6,#e3fde2, #f9fff9,#e5fee4, #f9fff9);
+.popspec {
+    background: linear-gradient(#f9fff9, #e7fbe6, #e3fde2, #f9fff9, #e5fee4, #f9fff9);
 }
-.our-specials,.popular-v,.today,.customers{
+
+.our-specials,
+.popular-v,
+.today,
+.customers {
     padding: 100px 100px 0 100px;
 }
-.special-divs{
+
+.special-divs {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10%;
 }
-.special-left-1,.special-right-1{
+
+.special-left-1,
+.special-right-1 {
     width: 50%;
 }
-.special-header{
+
+.special-header {
     text-align: center;
     color: #071b07;
     font-size: 42px;
     padding-bottom: 100px;
 }
-.special-img{
+
+.special-img {
     width: 500px;
 }
-.egg{
+
+.egg {
     text-align: center;
     color: #127111;
     margin-bottom: 50px;
 }
-.special-right-p,.special-right-pp{
+
+.special-right-p,
+.special-right-pp {
     color: #515452;
     font-size: 14px;
     margin-bottom: 20px;
     font-weight: 500;
 }
-.special-right-pp{
+
+.special-right-pp {
     margin-bottom: 50px;
 }
-.popular{
+
+.popular {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 100px;
 }
-.popular-header{
+
+.popular-header {
     margin-bottom: 150px;
 }
-.popular-card{
+
+.popular-card {
     width: 400px;
     height: 300px;
     background-color: #fff;
@@ -140,12 +173,14 @@ a.middle-nav-link{
     border-radius: 20px;
     padding: 40px;
 }
-.popular-card-title{
+
+.popular-card-title {
     color: #071b07;
     text-align: center;
     padding: 20px;
 }
-.popular-food-holder{
+
+.popular-food-holder {
     margin-top: -75px;
     margin-left: 60px;
     width: 200px;
@@ -155,39 +190,47 @@ a.middle-nav-link{
     align-items: center;
     border-radius: 20px;
 }
-.popular-food-holder img{
+
+.popular-food-holder img {
     width: 120px;
 }
-.popular-card-p{
+
+.popular-card-p {
     color: #515452;
     font-size: 13px;
 }
-.popular-emoji{
+
+.popular-emoji {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 10px;
 }
-.last-popular-item{
+
+.last-popular-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.popular-main-text{
+
+.popular-main-text {
     font-size: 14px;
     color: #071b07;
     font-weight: 500;
     padding-bottom: 20px;
 }
-.last-popular-item p{
+
+.last-popular-item p {
     font-family: "Montserrat", sans-serif;
     color: #31c12c;
 }
-.del{
+
+.del {
     color: #515452;
     opacity: 0.7;
 }
-.popular-btn{
+
+.popular-btn {
     width: 50%;
     background-color: #31c12c;
     color: white;
@@ -197,17 +240,18 @@ a.middle-nav-link{
     border-radius: 5px;
 }
 
-.today{
+.today {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.today-div{
+
+.today-div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.today-div-holder{
+.today-div-holder {
     width: 400px;
     height: 500px;
     border-radius: 20px;
@@ -217,10 +261,12 @@ a.middle-nav-link{
     align-items: center;
     justify-content: center;
 }
-.today-main-img{
+
+.today-main-img {
     width: 400px;
 }
-.today-grid-holder{
+
+.today-grid-holder {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -229,38 +275,183 @@ a.middle-nav-link{
     column-gap: 2%;
     margin-top: -1%;
 }
-.today-grid-item{
+
+.today-grid-item {
     width: 400px;
     height: 240px;
     border-radius: 20px;
     background-color: #fff;
 }
 
-.today-grid-item img{
+.today-grid-item img {
     width: 200px;
 }
 
-.grid-1{
+.grid-1 {
     background-image: url("/images/pexels-jer-chung-2059151.jpg");
     background-size: cover;
 }
-.grid-2{
+
+.grid-2 {
     background-image: url("/images/pexels-mister-mister-3434523.jpg");
     background-size: cover;
 }
-.grid-3{
+
+.grid-3 {
     background-image: url("/images/pexels-pixabay-315755.jpg");
     background-size: cover;
 }
-.grid-4{
+
+.grid-4 {
     background-image: url("/images/pexels-william-choquette-2641886.jpg");
     background-size: cover;
 }
-.customer-card-holder{
-    display: flex;
+
+.customers {
+    padding-bottom: 100px;
 }
-.customer-card{
-    width: 300px;
-    height: 200px;
+
+.customer-card-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-card {
+    width: 430px;
+    height: 240px;
+    background-color: #fff;
+    padding: 4%;
+    border-radius: 3%;
+}
+
+.img {
+    width: 15%;
+    border-radius: 25px;
+}
+
+.lorem {
+    font-size: 70%;
+    color: #0a570a;
+}
+
+.small-img-text {
+    color: #071b07;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+.small-img {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.pp {
+    padding-left: 10px;
+}
+
+.img-arrow a {
+    padding-top: 2%;
+}
+
+.arrow {
+
+    width: 20px;
+    color: #0a570a;
+}
+
+.arrow-back {
+    transform: rotateY(180deg);
+}
+
+.img-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2%;
+}
+
+.contact-form {
+    margin-top: 50px;
+    max-width: 1500px;
+    height: 300px;
+    background-color: #c0fabf;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    
+}
+.contact-image,.form{
+    width: 750px;
+    padding: 2% 4%;
+}
+.form{
+    background-image: url("/images/background.svg");
+}
+.contact-title{
+    font-size: 30px;
+    color: #0a570a;
+    font-weight: 800;
+    padding-bottom: 2%;
+}
+.contact-image{
+    height: 300px;
     background-color: #0a570a;
+    background-image: url("/images/pexels-mister-mister-3434523.jpg");
+    background-size: cover;
+    border-radius: 5px 10px 200px 5px;
+}
+.input-area,.submit-btn{
+    padding: 1% 6%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+.input-area{
+    width: 250px;
+    color: #071b07;
+}
+.submit-btn{
+    background-color: #31c12c;
+    color: #ffffff;
+    margin-left: -20px;
+}
+
+.footer{
+    background-color: #0a570a;
+}
+.footer{
+    padding: 100px 100px 50px 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.first-foot-col,.second-foot-col,.third-foot-col,.fourth-foot-col,.fifth-foot-col{
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    padding-bottom: 20%;
+}
+.footer-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding-bottom: 10%;
+}
+.foot-name{
+    font-family: "Christmas Kring-kring", sans-serif;
+    font-size: 40px;
+}
+.foot-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot-social i{
+    font-size: 1.5em;
 }
