@@ -478,17 +478,17 @@ a.middle-nav-link {
         grid-template-columns: 1fr;*/
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
     }
     .special-left-1,.special-right-1{
-        width: 100%;
+        width: 50%;
     }
     .special-img{
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 20px;
-        width: 300px;
+        width: 400px;
     }
     .egg{
         padding-top: 30px;
@@ -519,6 +519,23 @@ a.middle-nav-link {
     }
 }
 @media (max-width:826px) {
+    .special-divs{
+        /* display: grid;
+        grid-template-columns: 1fr;*/
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .special-left-1,.special-right-1{
+        width: 100%;
+    }
+    .special-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        width: 300px;
+    }
     .middle-nav{
         display: none;
     }
@@ -550,4 +567,54 @@ a.middle-nav-link {
         max-width: 80px;
     }
     
+}
+@media (max-width:560px) {
+    .green-area {
+        padding: 50px;
+    }
+    .our-specials,
+.popular-v,
+.today,
+.customers {
+    padding: 50px 50px 0 50px;
+}
+.popular {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 100px;
+}
+.popular-food-holder {
+    margin-top: -75px;
+    margin-left: 60px;
+    max-width: 200px;
+    height: 150px;
+    padding: 5px 35px;
+    background-color: #bdffba;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.popular-food-holder img {
+    max-width: 120px;
+}
+.popular-header {
+    margin-bottom: 20px;
+}
+.customer-heading{
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+.customer-card-holder{
+    flex-direction: column;
+}
+.customer-card{
+    margin-bottom: 2%;
+}
+.customer-card .lorem{
+    font-size: 12px;
+}
+.footer{
+    padding: 20px;
+}
 }
